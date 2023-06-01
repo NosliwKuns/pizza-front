@@ -1,0 +1,101 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
+}
+
+.container {
+  max-width: 1280;
+  padding: 0px 20px;
+}
+
+/* Header styles */
+
+header {
+  background: #222222;
+  padding: 10px 0px;
+  box-shadow: 0px 4px 4px rgba(0,0, 0, 0.25);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+
+}
+
+.nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main styles */
+
+main .container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.banner {
+  width: 490px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.podio {
+  background: #fff;
+}
+
+.podio h2 {
+  text-align: center;
+  color: #FC200C;
+  padding: 26px;
+}
+
+.top-pizzas {
+  display: flex;
+  margin-top: 30px;
+}
+
+
+/* Footer styles */
+
+footer {
+  background: #222222;
+  padding: 20px 0px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-footer {
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
